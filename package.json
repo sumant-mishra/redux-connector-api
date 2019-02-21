@@ -1,6 +1,6 @@
 {
   "name": "@sumantkrm/redux-connector-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Redux API which can be used with any JS framework",
   "main": "./build/index.js",
   "scripts": {

@@ -1,7 +1,7 @@
 const config = {
     entry: ['./index.js'],
     optimization: {
-      minimize: false
+      minimize: true
     },
     output: {
       libraryTarget: "umd",
