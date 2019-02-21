@@ -939,6 +939,8 @@ var ReduxConnector = exports.ReduxConnector = {
   }
 };
 
+window.ReduxConnector = ReduxConnector;
+
 /***/ }),
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {

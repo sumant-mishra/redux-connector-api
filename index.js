@@ -31,3 +31,4 @@ export const ReduxConnector = {
   }
 }
 
+window.ReduxConnector = ReduxConnector;
