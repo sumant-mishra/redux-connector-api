@@ -1,22 +1,15 @@
 {
-  "name": "@sumantkrm/redux-connector-api",
+  "name": "@sumantkrm/redux-connector",
   "version": "1.0.0",
-  "description": "Redux API which can be used with any JS framework",
+  "description": "Redux API which allows to connect from any api",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sumant-mishra/redux-connector-api.git"
-  },
-  "author": "Sumant Mishra",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sumant-mishra/redux-connector-api/issues"
-  },
-  "homepage": "https://github.com/sumant-mishra/redux-connector-api#readme",
   "devDependencies": {
     "axios": "^0.18.0",
     "babel-core": "^6.26.3",
