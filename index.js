@@ -30,5 +30,3 @@ export const ReduxConnector = {
     )(callback)
   }
 }
-
-window.ReduxConnector = ReduxConnector;

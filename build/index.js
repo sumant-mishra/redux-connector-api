@@ -562,7 +562,7 @@ var fetchVODItemsList = exports.fetchVODItemsList = function fetchVODItemsList()
     return function (dispatch) {
 
         //axios.get('https://ottapp-appgw-client-a.osim.mr.tv3cloud.com/S104/discovery/v4/feeds/ee8fb0cb-d624-4907-a877-58269f0cbc86/items?pivots=Language|en&$top=16&$groups=11472%2C4000000&$lang=en-US&storeId=HubsAndFeeds-Main')
-        _axios2.default.get('http://18.221.25.207:3000/').then(function (response) {
+        _axios2.default.get('https://s3.ap-south-1.amazonaws.com/redux-connector-api/VODitems.json').then(function (response) {
             dispatch({
                 type: VOD_LIST_FETCHED,
                 payload: response.data.Items
@@ -938,8 +938,6 @@ var ReduxConnector = exports.ReduxConnector = {
     })(callback);
   }
 };
-
-window.ReduxConnector = ReduxConnector;
 
 /***/ }),
 /* 12 */
